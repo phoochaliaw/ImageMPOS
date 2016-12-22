@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import ImageMPOS
 
 class ViewController: UIViewController {
 
+    @IBOutlet var imgTest: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+         imgTest.image = ImageMPOS.imageName(name: "A.png")
     }
 
     override func didReceiveMemoryWarning() {

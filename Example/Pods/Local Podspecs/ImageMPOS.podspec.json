@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of ImageMPOS.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ImageMPOS",
+  "homepage": "https://github.com/phoochaliaw/ImageMPOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "Tanakorn Phoochaliaw": "tanakorn@digio.co.th"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ImageMPOS.git",
+    "git": "https://github.com/phoochaliaw/ImageMPOS.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ImageMPOS/Classes/**/*"
+  "source_files": "ImageMPOS/Classes/**/*",
+  "resource_bundles": {
+    "ImageMPOS": [
+      "ImageMPOS/Assets/*.png"
+    ]
+  }
 }
