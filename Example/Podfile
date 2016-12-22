@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ImageMPOS_Example' do
-  pod 'ImageMPOS/KBANK', :path => '../'
+  pod 'ImageMPOS/PAYSBUY', :path => '../'
 
   target 'ImageMPOS_Tests' do
     inherit! :search_paths
