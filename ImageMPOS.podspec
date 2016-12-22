@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageMPOS'
   s.version          = '0.1.1'
-  s.summary          = 'A short description of ImageMPOS.'
+  s.summary          = 'Update sub image.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -33,6 +33,7 @@ TODO: Add long description of the pod here.
 #s.source_files = 'ImageMPOS/Classes/**/*'
 
   s.subspec 'KBANK' do |kbank|
+     kbank.xcconfig	= { 'OTHER_CFLAGS' => '$(inherited) -DKITE_OFFER_KBANK' }
      kbank.source_files = 'ImageMPOS/Classes/**/*'
      kbank.resource_bundles = {
         'ImageMPOS' => ['ImageMPOS/Assets/KBANK/*.png']
@@ -40,6 +41,7 @@ TODO: Add long description of the pod here.
   end
 
   s.subspec 'PAYSBUY' do |paysbuy|
+     paysbuy.xcconfig	= { 'OTHER_CFLAGS' => '$(inherited) -DKITE_OFFER_PAYSBUY' }
      paysbuy.source_files = 'ImageMPOS/Classes/**/*'
      paysbuy.resource_bundles = {
         'ImageMPOS' => ['ImageMPOS/Assets/PAYSBUY/*.png']

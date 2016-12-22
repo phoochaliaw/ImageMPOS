@@ -1,7 +1,7 @@
 {
   "name": "ImageMPOS",
-  "version": "0.1.0",
-  "summary": "A short description of ImageMPOS.",
+  "version": "0.1.1",
+  "summary": "Update sub image.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/phoochaliaw/ImageMPOS",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/phoochaliaw/ImageMPOS.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,6 +21,9 @@
   "subspecs": [
     {
       "name": "KBANK",
+      "xcconfig": {
+        "OTHER_CFLAGS": "$(inherited) -DKITE_OFFER_KBANK"
+      },
       "source_files": "ImageMPOS/Classes/**/*",
       "resource_bundles": {
         "ImageMPOS": [
@@ -30,6 +33,9 @@
     },
     {
       "name": "PAYSBUY",
+      "xcconfig": {
+        "OTHER_CFLAGS": "$(inherited) -DKITE_OFFER_PAYSBUY"
+      },
       "source_files": "ImageMPOS/Classes/**/*",
       "resource_bundles": {
         "ImageMPOS": [
