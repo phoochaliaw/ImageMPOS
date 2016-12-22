@@ -8,83 +8,75 @@
 
 /* Begin PBXBuildFile section */
 		067B2020B55AF70AF36581AEE36B3B19 /* Pods-ImageMPOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6665C2EA32354BB233E13D7B1BEA7AA /* Pods-ImageMPOS_Tests-dummy.m */; };
-		3E53E6AB41300773B2CDE0C4D63D37B3 /* ImageMPOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6083FA1FD99BAB0FD9C5CAB84C8BD1AE /* ImageMPOS-dummy.m */; };
+		19DC7BBA46A6FFB566D534F8B5301303 /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = 72747EAC50B1945F4AEDD3EFB904EEF1 /* A.png */; };
+		1E1F854E99A2357428122777DBC82C8B /* ImageMPOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A876CE3E64C54747E357EF22EFF4E69 /* ImageMPOS-dummy.m */; };
+		511B50BE81107406845EBA0F75BED0D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		5DCB4B0E5E3D7E119353F295C746A280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		635F940A995A306367555FC8A56F0D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		64C217D736F99516622176F6B87D5519 /* Pods-ImageMPOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8F0335FA275BD40A0F06C107C6D907 /* Pods-ImageMPOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AFB8E95E7E139B5C601B51675DD90EF /* Pods-ImageMPOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 940A51330C5B0252CCA7D5E9099BED2A /* Pods-ImageMPOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9222773EBEABC71F97B2812708AAEC22 /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E8A6B6FE138A0843ECF0BD08617F387 /* A.png */; };
-		A779619DB8537088E178D9A55F305A5F /* ImageMPOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 580546346E9E6668C0642B0351FB6AE1 /* ImageMPOS.bundle */; };
-		DA5230B0AF2AB244A254D71E22912DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		DE298662EC4DCC05A3565DEBAD153EB9 /* ImageMPOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87DE4C0F3C2785818A9E52A34C800CD /* ImageMPOS.swift */; };
-		EC1C7C9701D31FB51C3BBB3EB4512FEB /* ImageMPOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E224EEAE76634C6EA4EA9F709CF64889 /* ImageMPOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6E6FA5D62D922864158D458CE501C8 /* ImageMPOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE0405F8FCDD354661646EB42BE1DC7 /* ImageMPOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAD75F6DBB3B8B608B249178E3B82421 /* ImageMPOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F24026FD5993D4950D4540026917374 /* ImageMPOS.swift */; };
 		F84AC8F169814A4C7AE6E6D5DF8934F0 /* Pods-ImageMPOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCB893F08B7B93A0ED25D5C9C0D977E /* Pods-ImageMPOS_Example-dummy.m */; };
+		F956803EA31A59486C62536868592965 /* ImageMPOSKBANK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D11ABF09C91A02B202ABFDF807A7C66 /* ImageMPOSKBANK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		179B26CC8EABB35FBB52D0FCAB6E7638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB228AE634A3759311DB9F1629E94D9;
+			remoteInfo = "ImageMPOS-ImageMPOSKBANK";
+		};
 		522206D1FF0B4B5A0B53D487C42BC8BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 85D9410D86AB4D0829E958D04A9ED7E9;
+			remoteGlobalIDString = 8ED90A02F77908ED36FC3AA7152F7AD0;
 			remoteInfo = ImageMPOS;
-		};
-		EB2FF4C84DE3022A2AC19BC826C2218A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 698230DE13AB5974C328159305C39BF9;
-			remoteInfo = "ImageMPOS-ImageMPOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02009D4F5F6A44DD6FF83855A88D728B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE0405F8FCDD354661646EB42BE1DC7 /* ImageMPOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageMPOS-umbrella.h"; sourceTree = "<group>"; };
 		0F79B51177755FBEBBF01CFE3A44358D /* Pods-ImageMPOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageMPOS_Example.modulemap"; sourceTree = "<group>"; };
 		0FDB2150D7D125C6AE2A963C355E1EE7 /* Pods-ImageMPOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageMPOS_Example-resources.sh"; sourceTree = "<group>"; };
 		12F781463D3AC8FD0A3C92A3BCCA5CB3 /* Pods-ImageMPOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMPOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1E8A6B6FE138A0843ECF0BD08617F387 /* A.png */ = {isa = PBXFileReference; includeInIndex = 1; path = A.png; sourceTree = "<group>"; };
+		1EF59A314E39B7457BB788126C5B39A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29DF69659E9F76F6541842DF7D32330D /* Pods-ImageMPOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageMPOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2F24026FD5993D4950D4540026917374 /* ImageMPOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageMPOS.swift; sourceTree = "<group>"; };
+		3D11ABF09C91A02B202ABFDF807A7C66 /* ImageMPOSKBANK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ImageMPOSKBANK.bundle; path = ImageMPOSKBANK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E27B78EE3D37F06C39E532644645178 /* Pods-ImageMPOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMPOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4019A9844C31206C0FAF59D067DF5B2C /* Pods-ImageMPOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageMPOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		40B1FC19A9486D484F4791B4DBA296AE /* Pods-ImageMPOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageMPOS_Tests-resources.sh"; sourceTree = "<group>"; };
 		491C8FFDB91F9A00844352F16C09FBF0 /* Pods-ImageMPOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageMPOS_Tests.modulemap"; sourceTree = "<group>"; };
+		4A600D7C902FAD598B422CEC22C1965B /* ImageMPOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ImageMPOS.modulemap; sourceTree = "<group>"; };
 		4ED5F7F5C72B39D8A460D3760F521C45 /* Pods-ImageMPOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMPOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		580546346E9E6668C0642B0351FB6AE1 /* ImageMPOS.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ImageMPOS.bundle; path = ImageMPOS.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6083FA1FD99BAB0FD9C5CAB84C8BD1AE /* ImageMPOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageMPOS-dummy.m"; sourceTree = "<group>"; };
+		51074949E862A7E4069C629197BDE67C /* Pods_ImageMPOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMPOS_Example.framework; path = "Pods-ImageMPOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A876CE3E64C54747E357EF22EFF4E69 /* ImageMPOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageMPOS-dummy.m"; sourceTree = "<group>"; };
 		699E35EA4676D9FC1405202406698147 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD7AAAE363599C7C3B9CEC673ABFD20 /* ImageMPOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageMPOS.framework; path = ImageMPOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72747EAC50B1945F4AEDD3EFB904EEF1 /* A.png */ = {isa = PBXFileReference; includeInIndex = 1; path = A.png; sourceTree = "<group>"; };
 		82F705CD43499CD8CBFF9D0818B951A2 /* Pods-ImageMPOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMPOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		855DBDF091E9C9F8A19EDB0067BE2B82 /* Pods_ImageMPOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMPOS_Tests.framework; path = "Pods-ImageMPOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A57DF59C7C9B8BBB34C3DBB1B39A937 /* Pods-ImageMPOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageMPOS_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940A51330C5B0252CCA7D5E9099BED2A /* Pods-ImageMPOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageMPOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ACF128CA694C025D0159BC80E0DA6E09 /* ImageMPOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageMPOS.xcconfig; sourceTree = "<group>"; };
 		AFCB893F08B7B93A0ED25D5C9C0D977E /* Pods-ImageMPOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageMPOS_Example-dummy.m"; sourceTree = "<group>"; };
 		B25DAD93C49F7954C6EE461726CF890F /* Pods-ImageMPOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMPOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B6665C2EA32354BB233E13D7B1BEA7AA /* Pods-ImageMPOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageMPOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		B87DE4C0F3C2785818A9E52A34C800CD /* ImageMPOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageMPOS.swift; sourceTree = "<group>"; };
 		BA8F0335FA275BD40A0F06C107C6D907 /* Pods-ImageMPOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageMPOS_Example-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D68EE240C89FAE8F6FF4636234CF1B34 /* ImageMPOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageMPOS.framework; path = ImageMPOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78FB8C532DF0202996F105FB25179E5 /* Pods-ImageMPOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMPOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DDBAF3D7770FC0CCE8FE837C29289A14 /* ResourceBundle-ImageMPOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ImageMPOS-Info.plist"; sourceTree = "<group>"; };
-		E0F8A3268BAAB7977F82F32433727118 /* ImageMPOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageMPOS.xcconfig; sourceTree = "<group>"; };
-		E21E2AEA64AC18A4E13959D3EB522FB1 /* ImageMPOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ImageMPOS.modulemap; sourceTree = "<group>"; };
-		E224EEAE76634C6EA4EA9F709CF64889 /* ImageMPOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageMPOS-umbrella.h"; sourceTree = "<group>"; };
-		E9FCD73DF234FB663DB0B1845704B352 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE2783A8046FD37635CC715A31D457B5 /* ImageMPOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageMPOS-prefix.pch"; sourceTree = "<group>"; };
-		F1B3560CD09D51048D203961AD3D1493 /* Pods_ImageMPOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMPOS_Example.framework; path = "Pods-ImageMPOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B0328532CF1C9BA3B7F37DCEC74039 /* ResourceBundle-ImageMPOSKBANK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ImageMPOSKBANK-Info.plist"; sourceTree = "<group>"; };
+		E7DA4FFB45082BC8E76C96CD9271D7D4 /* ImageMPOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageMPOS-prefix.pch"; sourceTree = "<group>"; };
 		FC1262C82BE7BF9353BC7CB19E9A5C87 /* Pods-ImageMPOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageMPOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD2A18CCDBCB79716682208113753827 /* Pods_ImageMPOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMPOS_Tests.framework; path = "Pods-ImageMPOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5BBB5DD9892B8044CFFE1C9888FCF8ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA5230B0AF2AB244A254D71E22912DB1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7C94CB00C2F01A51794E694491AED0A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,18 +85,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1147CE2352E5CA7AA917B30143A8C69 /* Frameworks */ = {
+		B1E89446FC4320A20C67E1D3ABB19FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635F940A995A306367555FC8A56F0D01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCBC32242A1B697939A72818131C98C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1E89446FC4320A20C67E1D3ABB19FF7 /* Frameworks */ = {
+		FE294870CCD71B0BE471AED493220C47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635F940A995A306367555FC8A56F0D01 /* Foundation.framework in Frameworks */,
+				511B50BE81107406845EBA0F75BED0D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,21 +147,6 @@
 			path = "Target Support Files/Pods-ImageMPOS_Example";
 			sourceTree = "<group>";
 		};
-		3F49E6C7444C3F6CA1736249AD580936 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E21E2AEA64AC18A4E13959D3EB522FB1 /* ImageMPOS.modulemap */,
-				E0F8A3268BAAB7977F82F32433727118 /* ImageMPOS.xcconfig */,
-				6083FA1FD99BAB0FD9C5CAB84C8BD1AE /* ImageMPOS-dummy.m */,
-				EE2783A8046FD37635CC715A31D457B5 /* ImageMPOS-prefix.pch */,
-				E224EEAE76634C6EA4EA9F709CF64889 /* ImageMPOS-umbrella.h */,
-				E9FCD73DF234FB663DB0B1845704B352 /* Info.plist */,
-				DDBAF3D7770FC0CCE8FE837C29289A14 /* ResourceBundle-ImageMPOS-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ImageMPOS";
-			sourceTree = "<group>";
-		};
 		427AB36731B72E6071E8021D30A4785D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,27 +156,59 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		609F60A8370A649FDC132F728BBE240E /* Assets */ = {
+		52551480DFBCF35A319C2863798FC77F /* KBANK */ = {
 			isa = PBXGroup;
 			children = (
-				CA482CAEC0BBF8B0123E6A1B98597422 /* PAYSBUY */,
+				6B71C50AE98B19160C1E7D841BEBED9A /* ImageMPOS */,
+				5BE8B999BEAA36F4422A98B7DBD32270 /* Resources */,
 			);
-			name = Assets;
-			path = Assets;
+			name = KBANK;
+			sourceTree = "<group>";
+		};
+		5BE8B999BEAA36F4422A98B7DBD32270 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F28DEAA3CB585A221F79F4D9CAE1DE4B /* ImageMPOS */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6413587EAB46B6A9C1DA4717FFE2C6CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F24026FD5993D4950D4540026917374 /* ImageMPOS.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		66C22A5E9AADE68F57983CD913DD3A68 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				942AD96B82954A2930ADF995E23A58C3 /* ImageMPOS */,
+				A594D7E09A1F7FFF0293051997399B00 /* ImageMPOS */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6EC6C4AC83EF2030C8CF14FE30D8EF86 /* ImageMPOS */ = {
+		68BC6FF57B261086C6E8781CD81E8206 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				609F60A8370A649FDC132F728BBE240E /* Assets */,
+				4A600D7C902FAD598B422CEC22C1965B /* ImageMPOS.modulemap */,
+				ACF128CA694C025D0159BC80E0DA6E09 /* ImageMPOS.xcconfig */,
+				5A876CE3E64C54747E357EF22EFF4E69 /* ImageMPOS-dummy.m */,
+				E7DA4FFB45082BC8E76C96CD9271D7D4 /* ImageMPOS-prefix.pch */,
+				0AE0405F8FCDD354661646EB42BE1DC7 /* ImageMPOS-umbrella.h */,
+				1EF59A314E39B7457BB788126C5B39A0 /* Info.plist */,
+				E0B0328532CF1C9BA3B7F37DCEC74039 /* ResourceBundle-ImageMPOSKBANK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImageMPOS";
+			sourceTree = "<group>";
+		};
+		6B71C50AE98B19160C1E7D841BEBED9A /* ImageMPOS */ = {
+			isa = PBXGroup;
+			children = (
+				6413587EAB46B6A9C1DA4717FFE2C6CE /* Classes */,
 			);
 			name = ImageMPOS;
 			path = ImageMPOS;
@@ -211,48 +228,37 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				66C22A5E9AADE68F57983CD913DD3A68 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B341F5E5E17D396A23E33F36C96C2D2A /* Products */,
+				F2CE2BD4C4AB9B07AACC2E63E4ABA576 /* Products */,
 				427AB36731B72E6071E8021D30A4785D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		889C2A79A9D9D12216F79964F3279B8A /* Classes */ = {
+		86AAE9743CB06BD79982345704E51BE9 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				B87DE4C0F3C2785818A9E52A34C800CD /* ImageMPOS.swift */,
+				AB7BA312D089BB088B54B68C3ECA212B /* KBANK */,
 			);
-			name = Classes;
-			path = Classes;
+			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
-		942AD96B82954A2930ADF995E23A58C3 /* ImageMPOS */ = {
+		A594D7E09A1F7FFF0293051997399B00 /* ImageMPOS */ = {
 			isa = PBXGroup;
 			children = (
-				E1633C3280723BCF1B973F5F37A9F53C /* PAYSBUY */,
-				3F49E6C7444C3F6CA1736249AD580936 /* Support Files */,
+				52551480DFBCF35A319C2863798FC77F /* KBANK */,
+				68BC6FF57B261086C6E8781CD81E8206 /* Support Files */,
 			);
 			name = ImageMPOS;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		B341F5E5E17D396A23E33F36C96C2D2A /* Products */ = {
+		AB7BA312D089BB088B54B68C3ECA212B /* KBANK */ = {
 			isa = PBXGroup;
 			children = (
-				580546346E9E6668C0642B0351FB6AE1 /* ImageMPOS.bundle */,
-				D68EE240C89FAE8F6FF4636234CF1B34 /* ImageMPOS.framework */,
-				F1B3560CD09D51048D203961AD3D1493 /* Pods_ImageMPOS_Example.framework */,
-				FD2A18CCDBCB79716682208113753827 /* Pods_ImageMPOS_Tests.framework */,
+				72747EAC50B1945F4AEDD3EFB904EEF1 /* A.png */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B919BF4C54D1D42479F5A770340F52E3 /* ImageMPOS */ = {
-			isa = PBXGroup;
-			children = (
-				889C2A79A9D9D12216F79964F3279B8A /* Classes */,
-			);
-			name = ImageMPOS;
-			path = ImageMPOS;
+			name = KBANK;
+			path = KBANK;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -263,30 +269,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA482CAEC0BBF8B0123E6A1B98597422 /* PAYSBUY */ = {
+		F28DEAA3CB585A221F79F4D9CAE1DE4B /* ImageMPOS */ = {
 			isa = PBXGroup;
 			children = (
-				1E8A6B6FE138A0843ECF0BD08617F387 /* A.png */,
+				86AAE9743CB06BD79982345704E51BE9 /* Assets */,
 			);
-			name = PAYSBUY;
-			path = PAYSBUY;
+			name = ImageMPOS;
+			path = ImageMPOS;
 			sourceTree = "<group>";
 		};
-		CAA34E7E31AE865705CF7C073697A4DA /* Resources */ = {
+		F2CE2BD4C4AB9B07AACC2E63E4ABA576 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EC6C4AC83EF2030C8CF14FE30D8EF86 /* ImageMPOS */,
+				6AD7AAAE363599C7C3B9CEC673ABFD20 /* ImageMPOS.framework */,
+				3D11ABF09C91A02B202ABFDF807A7C66 /* ImageMPOSKBANK.bundle */,
+				51074949E862A7E4069C629197BDE67C /* Pods_ImageMPOS_Example.framework */,
+				855DBDF091E9C9F8A19EDB0067BE2B82 /* Pods_ImageMPOS_Tests.framework */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		E1633C3280723BCF1B973F5F37A9F53C /* PAYSBUY */ = {
-			isa = PBXGroup;
-			children = (
-				B919BF4C54D1D42479F5A770340F52E3 /* ImageMPOS */,
-				CAA34E7E31AE865705CF7C073697A4DA /* Resources */,
-			);
-			name = PAYSBUY;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,11 +300,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B80E73104E89039C26689E6C8858B497 /* Headers */ = {
+		BA5AB085882D4B592310F2E7D6868797 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1C7C9701D31FB51C3BBB3EB4512FEB /* ImageMPOS-umbrella.h in Headers */,
+				8E6E6FA5D62D922864158D458CE501C8 /* ImageMPOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,41 +319,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		698230DE13AB5974C328159305C39BF9 /* ImageMPOS-ImageMPOS */ = {
+		8ED90A02F77908ED36FC3AA7152F7AD0 /* ImageMPOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FB052A2F12EBE6CD540E3DFFED46AEE /* Build configuration list for PBXNativeTarget "ImageMPOS-ImageMPOS" */;
+			buildConfigurationList = 63D911BD57F8361E57CC1DA620C370C0 /* Build configuration list for PBXNativeTarget "ImageMPOS" */;
 			buildPhases = (
-				A99E57C4A9C19FD2E0961B67268DAF13 /* Sources */,
-				A1147CE2352E5CA7AA917B30143A8C69 /* Frameworks */,
-				598E71F1880B197DEA03900C5F5135E2 /* Resources */,
+				5B8B6B76923CA9D779EA09B7EDFDD6BB /* Sources */,
+				FE294870CCD71B0BE471AED493220C47 /* Frameworks */,
+				DE9847A0E582D26D0E82CE41A74F71D4 /* Resources */,
+				BA5AB085882D4B592310F2E7D6868797 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "ImageMPOS-ImageMPOS";
-			productName = "ImageMPOS-ImageMPOS";
-			productReference = 580546346E9E6668C0642B0351FB6AE1 /* ImageMPOS.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		85D9410D86AB4D0829E958D04A9ED7E9 /* ImageMPOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76138D20941AD6CAB8A315A573A65CFA /* Build configuration list for PBXNativeTarget "ImageMPOS" */;
-			buildPhases = (
-				12076E18FD091C582CAA11C2B97ACBE5 /* Sources */,
-				5BBB5DD9892B8044CFFE1C9888FCF8ED /* Frameworks */,
-				0C8A860120D648000C6A285CFE51F364 /* Resources */,
-				B80E73104E89039C26689E6C8858B497 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB0E6A9D0D459FD41807EC7E83EDEDE1 /* PBXTargetDependency */,
+				8BE28200D6EEB238C2349075A950C5DA /* PBXTargetDependency */,
 			);
 			name = ImageMPOS;
 			productName = ImageMPOS;
-			productReference = D68EE240C89FAE8F6FF4636234CF1B34 /* ImageMPOS.framework */;
+			productReference = 6AD7AAAE363599C7C3B9CEC673ABFD20 /* ImageMPOS.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		BEB228AE634A3759311DB9F1629E94D9 /* ImageMPOS-ImageMPOSKBANK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E415734DFE4F44692EBC292BE552FC /* Build configuration list for PBXNativeTarget "ImageMPOS-ImageMPOSKBANK" */;
+			buildPhases = (
+				DC6BBAC62D3FF898B7CCC8DAD4F594C8 /* Sources */,
+				DCCBC32242A1B697939A72818131C98C /* Frameworks */,
+				8D5A9A5F3132A55270DA5DEA29DB832A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageMPOS-ImageMPOSKBANK";
+			productName = "ImageMPOS-ImageMPOSKBANK";
+			productReference = 3D11ABF09C91A02B202ABFDF807A7C66 /* ImageMPOSKBANK.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		C1793FCD512556B1A3AC6B226DF835F9 /* Pods-ImageMPOS_Tests */ = {
 			isa = PBXNativeTarget;
@@ -369,7 +369,7 @@
 			);
 			name = "Pods-ImageMPOS_Tests";
 			productName = "Pods-ImageMPOS_Tests";
-			productReference = FD2A18CCDBCB79716682208113753827 /* Pods_ImageMPOS_Tests.framework */;
+			productReference = 855DBDF091E9C9F8A19EDB0067BE2B82 /* Pods_ImageMPOS_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C90398AA02552E22A016CCA295A69526 /* Pods-ImageMPOS_Example */ = {
@@ -387,7 +387,7 @@
 			);
 			name = "Pods-ImageMPOS_Example";
 			productName = "Pods-ImageMPOS_Example";
-			productReference = F1B3560CD09D51048D203961AD3D1493 /* Pods_ImageMPOS_Example.framework */;
+			productReference = 51074949E862A7E4069C629197BDE67C /* Pods_ImageMPOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -407,12 +407,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B341F5E5E17D396A23E33F36C96C2D2A /* Products */;
+			productRefGroup = F2CE2BD4C4AB9B07AACC2E63E4ABA576 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85D9410D86AB4D0829E958D04A9ED7E9 /* ImageMPOS */,
-				698230DE13AB5974C328159305C39BF9 /* ImageMPOS-ImageMPOS */,
+				8ED90A02F77908ED36FC3AA7152F7AD0 /* ImageMPOS */,
+				BEB228AE634A3759311DB9F1629E94D9 /* ImageMPOS-ImageMPOSKBANK */,
 				C90398AA02552E22A016CCA295A69526 /* Pods-ImageMPOS_Example */,
 				C1793FCD512556B1A3AC6B226DF835F9 /* Pods-ImageMPOS_Tests */,
 			);
@@ -420,31 +420,31 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0C8A860120D648000C6A285CFE51F364 /* Resources */ = {
+		8D5A9A5F3132A55270DA5DEA29DB832A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A779619DB8537088E178D9A55F305A5F /* ImageMPOS.bundle in Resources */,
+				19DC7BBA46A6FFB566D534F8B5301303 /* A.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		598E71F1880B197DEA03900C5F5135E2 /* Resources */ = {
+		DE9847A0E582D26D0E82CE41A74F71D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9222773EBEABC71F97B2812708AAEC22 /* A.png in Resources */,
+				F956803EA31A59486C62536868592965 /* ImageMPOSKBANK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12076E18FD091C582CAA11C2B97ACBE5 /* Sources */ = {
+		5B8B6B76923CA9D779EA09B7EDFDD6BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E53E6AB41300773B2CDE0C4D63D37B3 /* ImageMPOS-dummy.m in Sources */,
-				DE298662EC4DCC05A3565DEBAD153EB9 /* ImageMPOS.swift in Sources */,
+				1E1F854E99A2357428122777DBC82C8B /* ImageMPOS-dummy.m in Sources */,
+				EAD75F6DBB3B8B608B249178E3B82421 /* ImageMPOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +456,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A99E57C4A9C19FD2E0961B67268DAF13 /* Sources */ = {
+		DC6BBAC62D3FF898B7CCC8DAD4F594C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -474,41 +474,73 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BB0E6A9D0D459FD41807EC7E83EDEDE1 /* PBXTargetDependency */ = {
+		8BE28200D6EEB238C2349075A950C5DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "ImageMPOS-ImageMPOS";
-			target = 698230DE13AB5974C328159305C39BF9 /* ImageMPOS-ImageMPOS */;
-			targetProxy = EB2FF4C84DE3022A2AC19BC826C2218A /* PBXContainerItemProxy */;
+			name = "ImageMPOS-ImageMPOSKBANK";
+			target = BEB228AE634A3759311DB9F1629E94D9 /* ImageMPOS-ImageMPOSKBANK */;
+			targetProxy = 179B26CC8EABB35FBB52D0FCAB6E7638 /* PBXContainerItemProxy */;
 		};
 		DC04BC4D055E58D6CAB5486CF71F7C19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ImageMPOS;
-			target = 85D9410D86AB4D0829E958D04A9ED7E9 /* ImageMPOS */;
+			target = 8ED90A02F77908ED36FC3AA7152F7AD0 /* ImageMPOS */;
 			targetProxy = 522206D1FF0B4B5A0B53D487C42BC8BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		110B9EC452865F83D43F13A9A750E112 /* Debug */ = {
+		058FF01AD7B3B3BD5BD02CBA5101678D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0F8A3268BAAB7977F82F32433727118 /* ImageMPOS.xcconfig */;
+			baseConfigurationReference = ACF128CA694C025D0159BC80E0DA6E09 /* ImageMPOS.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImageMPOS";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/ImageMPOS/ResourceBundle-ImageMPOS-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/ImageMPOS/ResourceBundle-ImageMPOSKBANK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ImageMPOS;
+				PRODUCT_NAME = ImageMPOSKBANK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		21804C3F4AFFEC5186E6338E019B7646 /* Debug */ = {
+		081240DC7AC13E33E90093A4092EA38E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0F8A3268BAAB7977F82F32433727118 /* ImageMPOS.xcconfig */;
+			baseConfigurationReference = ACF128CA694C025D0159BC80E0DA6E09 /* ImageMPOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ImageMPOS/ImageMPOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageMPOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageMPOS/ImageMPOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ImageMPOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12B1B16301B347B3CF7A79E525BE641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF128CA694C025D0159BC80E0DA6E09 /* ImageMPOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -574,38 +606,6 @@
 			};
 			name = Release;
 		};
-		47EBC371B74637A5499AA7AFCC1B9BCF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0F8A3268BAAB7977F82F32433727118 /* ImageMPOS.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ImageMPOS/ImageMPOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageMPOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageMPOS/ImageMPOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ImageMPOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4A9AB2863CBF9F0BDAF783F2FF877632 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E27B78EE3D37F06C39E532644645178 /* Pods-ImageMPOS_Tests.debug.xcconfig */;
@@ -638,6 +638,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5308D1225D410F33BE3FE54391973047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF128CA694C025D0159BC80E0DA6E09 /* ImageMPOS.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImageMPOS";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ImageMPOS/ResourceBundle-ImageMPOSKBANK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ImageMPOSKBANK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -760,23 +777,6 @@
 			};
 			name = Debug;
 		};
-		E3CB91259A65B35D2F1B994D5144D262 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0F8A3268BAAB7977F82F32433727118 /* ImageMPOS.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImageMPOS";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/ImageMPOS/ResourceBundle-ImageMPOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ImageMPOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		EF4407995A6794A9FFD19795ECDB27D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B25DAD93C49F7954C6EE461726CF890F /* Pods-ImageMPOS_Example.debug.xcconfig */;
@@ -825,11 +825,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76138D20941AD6CAB8A315A573A65CFA /* Build configuration list for PBXNativeTarget "ImageMPOS" */ = {
+		63D911BD57F8361E57CC1DA620C370C0 /* Build configuration list for PBXNativeTarget "ImageMPOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21804C3F4AFFEC5186E6338E019B7646 /* Debug */,
-				47EBC371B74637A5499AA7AFCC1B9BCF /* Release */,
+				12B1B16301B347B3CF7A79E525BE641E /* Debug */,
+				081240DC7AC13E33E90093A4092EA38E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -843,11 +843,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FB052A2F12EBE6CD540E3DFFED46AEE /* Build configuration list for PBXNativeTarget "ImageMPOS-ImageMPOS" */ = {
+		D6E415734DFE4F44692EBC292BE552FC /* Build configuration list for PBXNativeTarget "ImageMPOS-ImageMPOSKBANK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				110B9EC452865F83D43F13A9A750E112 /* Debug */,
-				E3CB91259A65B35D2F1B994D5144D262 /* Release */,
+				5308D1225D410F33BE3FE54391973047 /* Debug */,
+				058FF01AD7B3B3BD5BD02CBA5101678D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

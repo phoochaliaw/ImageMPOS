@@ -21,24 +21,18 @@
   "subspecs": [
     {
       "name": "KBANK",
-      "xcconfig": {
-        "OTHER_CFLAGS": "$(inherited) -DKITE_OFFER_KBANK"
-      },
       "source_files": "ImageMPOS/Classes/**/*",
       "resource_bundles": {
-        "ImageMPOS": [
+        "ImageMPOSKBANK": [
           "ImageMPOS/Assets/KBANK/*.png"
         ]
       }
     },
     {
       "name": "PAYSBUY",
-      "xcconfig": {
-        "OTHER_CFLAGS": "$(inherited) -DKITE_OFFER_PAYSBUY"
-      },
       "source_files": "ImageMPOS/Classes/**/*",
       "resource_bundles": {
-        "ImageMPOS": [
+        "ImageMPOSPAYSBUY": [
           "ImageMPOS/Assets/PAYSBUY/*.png"
         ]
       }

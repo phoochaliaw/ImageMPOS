@@ -32,24 +32,22 @@ TODO: Add long description of the pod here.
 
 #s.source_files = 'ImageMPOS/Classes/**/*'
 
-  s.subspec 'KBANK' do |kbank|
-     kbank.xcconfig	= { 'OTHER_CFLAGS' => '$(inherited) -DKITE_OFFER_KBANK' }
-     kbank.source_files = 'ImageMPOS/Classes/**/*'
-     kbank.resource_bundles = {
-        'ImageMPOS' => ['ImageMPOS/Assets/KBANK/*.png']
-     }
-  end
+s.subspec 'KBANK' do |kb|
+kb.source_files = 'ImageMPOS/Classes/**/*'
+kb.resource_bundles = {
+'ImageMPOSKBANK' => ['ImageMPOS/Assets/KBANK/*.png']
+}
+end
 
-  s.subspec 'PAYSBUY' do |paysbuy|
-     paysbuy.xcconfig	= { 'OTHER_CFLAGS' => '$(inherited) -DKITE_OFFER_PAYSBUY' }
-     paysbuy.source_files = 'ImageMPOS/Classes/**/*'
-     paysbuy.resource_bundles = {
-        'ImageMPOS' => ['ImageMPOS/Assets/PAYSBUY/*.png']
-     }
-  end
+s.subspec 'PAYSBUY' do |psb|
+psb.source_files = 'ImageMPOS/Classes/**/*'
+psb.resource_bundles = {
+'ImageMPOSPAYSBUY' => ['ImageMPOS/Assets/PAYSBUY/*.png']
+}
+end
 
 #s.resource_bundles = {
-# 'ImageMPOS' => ['ImageMPOS/Assets/*.png']
+#'ImageMPOS' => ['ImageMPOS/Assets/PAYSBUY/*.png']
 # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
