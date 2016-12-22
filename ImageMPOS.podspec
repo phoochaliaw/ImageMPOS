@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImageMPOS'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of ImageMPOS.'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,25 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ImageMPOS/Classes/**/*'
-  
-  s.resource_bundles = {
-    'ImageMPOS' => ['ImageMPOS/Assets/*.png']
-  }
+#s.source_files = 'ImageMPOS/Classes/**/*'
+
+  s.subspec 'KBANK' do |kbank|
+     kbank.source_files = 'ImageMPOS/Classes/**/*'
+     kbank.resource_bundles = {
+        'ImageMPOS' => ['ImageMPOS/Assets/KBANK/*.png']
+     }
+  end
+
+  s.subspec 'PAYSBUY' do |paysbuy|
+     paysbuy.source_files = 'ImageMPOS/Classes/**/*'
+     paysbuy.resource_bundles = {
+        'ImageMPOS' => ['ImageMPOS/Assets/PAYSBUY/*.png']
+     }
+  end
+
+#s.resource_bundles = {
+# 'ImageMPOS' => ['ImageMPOS/Assets/*.png']
+# }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

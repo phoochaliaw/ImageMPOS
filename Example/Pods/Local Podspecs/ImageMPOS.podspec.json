@@ -18,10 +18,24 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ImageMPOS/Classes/**/*",
-  "resource_bundles": {
-    "ImageMPOS": [
-      "ImageMPOS/Assets/*.png"
-    ]
-  }
+  "subspecs": [
+    {
+      "name": "KBANK",
+      "source_files": "ImageMPOS/Classes/**/*",
+      "resource_bundles": {
+        "ImageMPOS": [
+          "ImageMPOS/Assets/KBANK/*.png"
+        ]
+      }
+    },
+    {
+      "name": "PAYSBUY",
+      "source_files": "ImageMPOS/Classes/**/*",
+      "resource_bundles": {
+        "ImageMPOS": [
+          "ImageMPOS/Assets/PAYSBUY/*.png"
+        ]
+      }
+    }
+  ]
 }
