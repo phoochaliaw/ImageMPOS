@@ -1,0 +1,6 @@
+framework module ImageMPOS {
+  umbrella header "ImageMPOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

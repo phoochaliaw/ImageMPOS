@@ -1,0 +1,16 @@
+PODS:
+  - ImageMPOS (0.1.0)
+
+DEPENDENCIES:
+  - ImageMPOS (from `../`)
+
+EXTERNAL SOURCES:
+  ImageMPOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ImageMPOS: ad33a42e9c48023ed042ae392f7d2aea0d61edcd
+
+PODFILE CHECKSUM: bc57f184413383389f9f1f4f96a8d573e955ee34
+
+COCOAPODS: 1.1.1

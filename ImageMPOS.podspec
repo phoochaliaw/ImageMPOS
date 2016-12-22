@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ImageMPOS'
+  s.homepage         = 'https://github.com/phoochaliaw/ImageMPOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tanakorn Phoochaliaw' => 'tanakorn@digio.co.th' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/ImageMPOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/phoochaliaw/ImageMPOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ImageMPOS/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ImageMPOS' => ['ImageMPOS/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'ImageMPOS' => ['ImageMPOS/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
